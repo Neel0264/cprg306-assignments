@@ -1,4 +1,4 @@
-// app/week-2/student-info.js
+
 import Link from 'next/link';
 
 export default function StudentInfo() {
