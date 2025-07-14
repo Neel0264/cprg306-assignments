@@ -1,0 +1,74 @@
+[
+  {
+    "id": "item1",
+    "name": "bananas 🍌",
+    "quantity": 6,
+    "category": "Produce"
+  },
+  {
+    "id": "item2",
+    "name": "bread 🍞",
+    "quantity": 2,
+    "category": "Bakery"
+  },
+  {
+    "id": "item3",
+    "name": "broccoli 🥦",
+    "quantity": 3,
+    "category": "Produce"
+  },
+  {
+    "id": "item4",
+    "name": "chicken breasts, 1 kg 🍗",
+    "quantity": 1,
+    "category": "Meat"
+  },
+  {
+    "id": "item5",
+    "name": "dish soap 🧼",
+    "quantity": 1,
+    "category": "Household"
+  },
+  {
+    "id": "item6",
+    "name": "eggs, dozen 🥚",
+    "quantity": 2,
+    "category": "Dairy"
+  },
+  {
+    "id": "item7",
+    "name": "hand soap 🧴",
+    "quantity": 4,
+    "category": "Household"
+  },
+  {
+    "id": "item8",
+    "name": "milk, 4 L 🥛",
+    "quantity": 1,
+    "category": "Dairy"
+  },
+  {
+    "id": "item9",
+    "name": "paper towels, 6 pack 🧻",
+    "quantity": 1,
+    "category": "Household"
+  },
+  {
+    "id": "item10",
+    "name": "pasta sauce 🍯",
+    "quantity": 3,
+    "category": "Canned Goods"
+  },
+  {
+    "id": "item11",
+    "name": "spaghetti, 454 g 🍝",
+    "quantity": 2,
+    "category": "Dry Goods"
+  },
+  {
+    "id": "item12",
+    "name": "toilet paper, 12 pack 🧻",
+    "quantity": 1,
+    "category": "Household"
+  }
+]
