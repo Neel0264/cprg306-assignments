@@ -24,14 +24,10 @@ export default function Page() {
   }, [user]);
 
   const handleAddItem = async (newItem) => {
-  if (!user) return;
-
-  const id = await addItem(user.uid, newItem);     // Save to Firestore
-  const newItemWithId = { ...newItem, id };        // Add Firestore ID
-  setItems((prevItems) => [...prevItems, newItemWithId]); // Add to list
-};
-
-  
+    const id = await addItem(user.uid, newItem);
+    const newItemWithId = { ...newItem, id };
+    setItems((prevItems) => [...prevItems, newItemWithId]);
+  };
 
   const handleItemSelect = (item) => {
     const cleanedItemName = item.name
