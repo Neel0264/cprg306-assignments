@@ -2,6 +2,17 @@ import Image from "next/image";
 
 export default function Home() {
   return (
+    <main className="p-4 text-white bg-slate-900 min-h-screen">
+      <h1 className="text-3xl font-bold">Welcome to CPRG306 Assignments</h1>
+      <p className="mt-2">
+        Go to <a href="/week-10/shopping-list" className="underline text-blue-400">Week 10 Shopping List</a>
+      </p>
+    </main>
+  );
+}
+
+export default function Home() {
+  return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
