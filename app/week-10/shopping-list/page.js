@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useUserAuth } from '../../_utils/auth-context';
-import { getItems, addItem } from '../../_services/shopping-list-service';
+import { getItems, addItem } from '../_services/shopping-list-service';
 import ItemList from './item-list';
 import NewItem from './new-item';
 import MealIdeas from './meal-ideas';
